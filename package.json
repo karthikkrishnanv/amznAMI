@@ -1,0 +1,18 @@
+{
+  "name": "instance-ami",
+  "version": "1.0.0",
+  "description": "Find AMZN AMIs for each instance type across regions",
+  "main": "list.js",
+  "scripts": {
+    "test": "node list.js"
+  },
+  "keywords": [
+    "aws",
+    "ami"
+  ],
+  "author": "Karthik Krishnan",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
